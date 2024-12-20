@@ -1,0 +1,57 @@
+name: richard.torp
+description: Function-based
+version: 6.5.952
+author: null
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: richardtorp
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2024-12-20 20:29:28'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-12-20 20:29:28'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-12-20T20:29:28.612293Z'
+  name: plibMaven
+  version: 8.8.0-SNAPSHOT
+  id: '144298800'
+  createdAt: '2024-12-20T20:29:28.612293Z'
+  type: plibMaven
+projectDependencies:
+  '191':
+    projectUID: 191
+    projectName: ingrid.thiel
+    repositoryPath: gitUri=http://gitserver:3000/dev_vPds4hfS_team_347/dev_vPds4hfS_project_191.git&subPath=
+    version: ingrid.thiel/0.0.2.659
+    isDefault: false
+    author: null
+    createdAt: '2024-12-20 20:29:26'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
